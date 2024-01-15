@@ -6,7 +6,7 @@
     },
     "license": "Apache-2.0",
     "repository": "duckduckgo/duckduckgo-privacy-extension",
-    "scripts": {
+    "scripts": {n}
         "install-ci": "make npm",
         "bundle-config": "node scripts/bundleConfig.mjs && node node_modules/@duckduckgo/content-scope-scripts/scripts/bundleTrackers.mjs > shared/data/bundled/tracker-lookup.json",
         "build": "echo 'Try npm run release-firefox or npm run release-chrome instead' && exit 0",
